@@ -217,10 +217,10 @@ export const pack = async ({
     addEmptyItems('replays')
     addEmptyItems('rooms')
 
-    const skin = addItems('skins', assets.db.skins, toSkin, 'pixel')
-    const background = addItems('backgrounds', assets.db.backgrounds, toBackground, 'darkblue')
-    const effect = addItems('effects', assets.db.effects, toEffect, '8bit')
-    const particle = addItems('particles', assets.db.particles, toParticle, 'pixel')
+    const skin = addItems('skins', assets.db.skins, toSkin, 'PR-S1-3')
+    const background = addItems('backgrounds', assets.db.backgrounds, toBackground, 'PR-BG-3')
+    const effect = addItems('effects', assets.db.effects, toEffect, 'PR-SD-1')
+    const particle = addItems('particles', assets.db.particles, toParticle, 'PR-PT-3')
 
     const ctx = { ...options, assets }
 

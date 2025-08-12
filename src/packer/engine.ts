@@ -1,4 +1,4 @@
-import { databaseEngineItem } from 'sonolus-pjsekai-engine'
+import { databaseEngineItem } from 'sonolus-pjsekai-js'
 import type { PackEngine } from '.'
 
 export const packEngine: PackEngine = ({ assets }) => ({

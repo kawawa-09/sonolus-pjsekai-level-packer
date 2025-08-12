@@ -61,9 +61,7 @@ const onClose = () => {
     <h1 class="text-center text-xl font-bold sm:text-3xl">Sonolus PJSekai Level Packer</h1>
 
     <p>
-        Pack your Project Sekai: Colorful Stage! levels into Sonolus collection packages. <br />
-        For publishing and sharing your PJSekai levels, take a look at:
-        <VLink url="https://cc.sevenc7c.com" /> <br />
+        Pack your Proseka Rush levels into Sonolus collection packages. <br />
         <br />
         Sonolus: <br />
         Version {{ version.sonolus }} <br />
@@ -71,7 +69,7 @@ const onClose = () => {
         <br />
         Engine: <br />
         Version {{ engineVersion }} <br />
-        <VLink url="https://github.com/NonSpicyBurrito/sonolus-pjsekai-engine" /> <br />
+        <VLink url="https://github.com/hyeon2006/sonolus-pjsekai-js" /> <br />
         <br />
         Packer: <br />
         Version {{ appVersion }} <br />
@@ -117,7 +115,7 @@ const onClose = () => {
 
             <VFileField v-model="preview" label="Preview" />
 
-            <VFileField v-model="chart" label="Chart (SUS)" accept=".sus,.txt" required />
+            <VFileField v-model="chart" label="Chart (SUS, USC)" accept=".sus,.txt,.usc" required />
 
             <VNumberField
                 v-model="offset"
