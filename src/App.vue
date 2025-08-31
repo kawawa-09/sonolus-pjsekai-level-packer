@@ -115,7 +115,7 @@ const onClose = () => {
 
             <VFileField v-model="preview" label="Preview" />
 
-            <VFileField v-model="chart" label="Chart (SUS, USC)" accept=".sus,.txt,.usc" required />
+            <VFileField v-model="chart" label="Chart" accept=".sus,.txt,.usc,.json" required />
 
             <VNumberField
                 v-model="offset"
