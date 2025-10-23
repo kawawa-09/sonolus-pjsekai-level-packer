@@ -1,4 +1,4 @@
-import { susToUSC, uscToLevelData, uscToUSC } from 'sonolus-pjsekai-js'
+import { susToUSC, uscToLevelData, uscToUSC } from 'sonolus-next-sekai-rush'
 import type { PackLevelData } from '.'
 
 export const packLevelData: PackLevelData = async ({ chart, offset }) => {
