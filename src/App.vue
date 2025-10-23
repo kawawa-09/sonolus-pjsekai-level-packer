@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { version } from '@sonolus/core'
-import { version as engineVersion } from 'sonolus-pjsekai-js'
+import { version as engineVersion } from 'sonolus-next-sekai-rush'
 import { ref } from 'vue'
 import { version as appVersion } from '../package.json'
 import VLink from './components/VLink.vue'
