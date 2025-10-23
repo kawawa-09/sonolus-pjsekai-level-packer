@@ -69,7 +69,7 @@ const onClose = () => {
         <br />
         Engine: <br />
         Version {{ engineVersion }} <br />
-        <VLink url="https://github.com/hyeon2006/sonolus-pjsekai-js" /> <br />
+        <VLink url="https://github.com/UntitledCharts/sonolus-next-sekai-rush" /> <br />
         <br />
         Packer: <br />
         Version {{ appVersion }} <br />
