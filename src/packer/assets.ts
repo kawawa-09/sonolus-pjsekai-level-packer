@@ -14,9 +14,9 @@ export const repository = Object.entries(
     buffer: buffer as ArrayBuffer,
 }))
 
-export { default as engineTutorialData } from 'sonolus-pjsekai-js/EngineTutorialData?arraybuffer'
-export { default as engineConfiguration } from 'sonolus-pjsekai-js/EngineConfiguration?arraybuffer'
-export { default as enginePlayData } from 'sonolus-pjsekai-js/EnginePlayData?arraybuffer'
-export { default as enginePreviewData } from 'sonolus-pjsekai-js/EnginePreviewData?arraybuffer'
-export { default as engineThumbnail } from 'sonolus-pjsekai-js/EngineThumbnail?arraybuffer'
-export { default as engineWatchData } from 'sonolus-pjsekai-js/EngineWatchData?arraybuffer'
+export { default as engineTutorialData } from 'sonolus-next-sekai-rush/EngineTutorialData?arraybuffer'
+export { default as engineConfiguration } from 'sonolus-next-sekai-rush/EngineConfiguration?arraybuffer'
+export { default as enginePlayData } from 'sonolus-next-sekai-rush/EnginePlayData?arraybuffer'
+export { default as enginePreviewData } from 'sonolus-next-sekai-rush/EnginePreviewData?arraybuffer'
+export { default as engineThumbnail } from 'sonolus-next-sekai-rush/EngineThumbnail?arraybuffer'
+export { default as engineWatchData } from 'sonolus-next-sekai-rush/EngineWatchData?arraybuffer'
