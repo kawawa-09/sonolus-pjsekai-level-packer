@@ -20,3 +20,4 @@ export { default as enginePlayData } from 'sonolus-pjsekai-js/EnginePlayData?arr
 export { default as enginePreviewData } from 'sonolus-pjsekai-js/EnginePreviewData?arraybuffer'
 export { default as engineThumbnail } from 'sonolus-pjsekai-js/EngineThumbnail?arraybuffer'
 export { default as engineWatchData } from 'sonolus-pjsekai-js/EngineWatchData?arraybuffer'
+export { default as engineRom } from 'sonolus-pjsekai-js/EngineRom?arraybuffer'

@@ -13,5 +13,6 @@ export const packEngine: PackEngine = ({ assets }) => ({
         previewData: { type: 'raw', data: assets.enginePreviewData },
         tutorialData: { type: 'raw', data: assets.engineTutorialData },
         configuration: { type: 'raw', data: assets.engineConfiguration },
+        rom: { type: 'raw', data: assets.engineRom },
     },
 })
