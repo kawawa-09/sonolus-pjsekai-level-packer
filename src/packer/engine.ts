@@ -1,4 +1,4 @@
-import { databaseEngineItem } from 'sonolus-pjsekai-js'
+import { databaseEngineItem } from 'sonolus-next-rush-plus-engine'
 import type { PackEngine } from '.'
 
 export const packEngine: PackEngine = ({ assets }) => ({
@@ -13,5 +13,6 @@ export const packEngine: PackEngine = ({ assets }) => ({
         previewData: { type: 'raw', data: assets.enginePreviewData },
         tutorialData: { type: 'raw', data: assets.engineTutorialData },
         configuration: { type: 'raw', data: assets.engineConfiguration },
+        rom: { type: 'raw', data: assets.engineRom },
     },
 })

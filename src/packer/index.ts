@@ -59,7 +59,7 @@ export type PackEngine = (ctx: PackCtx) => MaybePromise<{
         watchData: JsonResource<EngineWatchData>
         previewData: JsonResource<EnginePreviewData>
         tutorialData: JsonResource<EngineTutorialData>
-        rom?: Resource
+        rom?: JsonResource<EngineTutorialData>
         configuration: JsonResource<EngineConfiguration>
     }
 }>
@@ -217,10 +217,10 @@ export const pack = async ({
     addEmptyItems('replays')
     addEmptyItems('rooms')
 
-    const skin = addItems('skins', assets.db.skins, toSkin, 'PR-S1-3')
+    const skin = addItems('skins', assets.db.skins, toSkin, 'NR-V3-S1-JP')
     const background = addItems('backgrounds', assets.db.backgrounds, toBackground, 'PR-BG-3')
     const effect = addItems('effects', assets.db.effects, toEffect, 'PR-SD-1')
-    const particle = addItems('particles', assets.db.particles, toParticle, 'PR-PT-3')
+    const particle = addItems('particles', assets.db.particles, toParticle, 'next-rush-plus')
 
     const ctx = { ...options, assets }
 
