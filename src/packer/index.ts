@@ -220,7 +220,7 @@ export const pack = async ({
     const skin = addItems('skins', assets.db.skins, toSkin, 'NR-V3-S1-JP')
     const background = addItems('backgrounds', assets.db.backgrounds, toBackground, 'PR-BG-3')
     const effect = addItems('effects', assets.db.effects, toEffect, 'PR-SD-1')
-    const particle = addItems('particles', assets.db.particles, toParticle, 'PR-PT-3')
+    const particle = addItems('particles', assets.db.particles, toParticle, 'next-rush-plus')
 
     const ctx = { ...options, assets }
 

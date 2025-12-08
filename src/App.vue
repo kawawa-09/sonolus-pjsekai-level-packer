@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { version } from '@sonolus/core'
-import { version as engineVersion } from 'sonolus-pjsekai-js'
+import { version as engineVersion } from 'sonolus-next-rush-plus-engine'
 import { ref } from 'vue'
 import { version as appVersion } from '../package.json'
 import VLink from './components/VLink.vue'
@@ -69,7 +69,7 @@ const onClose = () => {
         <br />
         Engine: <br />
         Version {{ engineVersion }} <br />
-        <VLink url="https://github.com/hyeon2006/sonolus-pjsekai-js" /> <br />
+        <VLink url="https://github.com/hyeon2006/sonolus-next-rush-plus-engine" /> <br />
         <br />
         Packer: <br />
         Version {{ appVersion }} <br />
