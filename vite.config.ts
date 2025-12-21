@@ -7,7 +7,6 @@ import arraybuffer from 'vite-plugin-arraybuffer'
 
 export default defineConfig({
     plugins: [vue(), arraybuffer()],
-    base: '/packer/',
 
     css: {
         postcss: {
